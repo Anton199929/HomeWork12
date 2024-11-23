@@ -7,11 +7,8 @@ public class Main {
         Author bookAuthor2 = new Author("Глен", "Кук");
         Book book1 = new Book("Оно", bookAuthor1, 1986);
         Book book2 = new Book("Черный отряд", bookAuthor2, 1983);
-
-        System.out.println(book1);
-        System.out.println(book2);
-
         book2.setYearOfPublication(1984);
+        System.out.println(book1);
         System.out.println(book2);
 
     }
